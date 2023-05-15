@@ -10,7 +10,7 @@ export default function Model(){
                     <p className="text-left text-3xl font-bold"> <span className=" text-[#41644A] ">45$ </span> /per day</p>
                 </div>
                     <div className="border-2 border-[#DBDFEA] p-2 grid grid-cols-2">
-                    <p><span className="text-xl font-semibold">Model:</span>Model X</p> 
+                    <p><span className="text-xl font-semibold">Model: </span> Model X</p> 
                     <p><span className="text-xl font-semibold">Type: </span> Manual</p>
                     <p><span className="text-xl font-semibold">Fuel: </span> Diesel</p>
                     <p><span className="text-xl font-semibold">Door:</span> 4</p>
