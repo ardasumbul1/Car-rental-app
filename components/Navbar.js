@@ -11,8 +11,8 @@ export default function Navbar(){
 
   return(
     <div className="w-full h-[80px] items-center mt-[3vh] flex">
-      <div className="ml-[4vh] flex items-center hidden sm:flex" >
-        <img className="w-[80px]" src="/car-rental-logo.png" alt="alt" />
+      <div className="ml-[9vh] flex items-center hidden sm:flex" >
+        <img className="w-[80px]" src="/logo.png" alt="alt" />
         <h1 className='text-xl font-semibold text-[#655DBB] ml-[1vh]'>Carlaa</h1>
       </div>
       
@@ -21,9 +21,10 @@ export default function Navbar(){
         <Navlink name="Models"/>
         <Navlink name="About"/>
         <Navlink name="Contact"/>
+        <Navlink name="Testimonials" />
       </div>
       
-      <div className="justify-center flex items-center ml-[35vh]  hidden md:flex">
+      <div className="justify-center flex items-center ml-[25vh]  hidden md:flex">
         <button className="m-[6vh] font-bold" type="button">Sign In</button>
         <button className="bg-[#655DBB] text-slate-50 font-bold pr-[3vh] pl-[3vh] pt-[2vh] pb-[2vh] rounded" type="button">Register</button>
       </div>

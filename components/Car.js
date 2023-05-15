@@ -2,7 +2,7 @@
 export default function Car(props){
 
     return(
-        <div className="flex justify-center items-center ">
+        <div className="flex justify-center items-center m-10 ">
             <div>
                 <img className="w-[20vh] h-[20vh] lg:w-[90vh]  lg:h-[60vh]" src={props.image} alt="ford car" />
             </div>
