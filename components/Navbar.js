@@ -16,15 +16,17 @@ export default function Navbar(){
         <h1 className='text-xl font-semibold text-[#655DBB] ml-[1vh]'>Carlaa</h1>
       </div>
       
-      <div className="justify-center flex items-center text-2xl ml-[25vh] hidden md:flex">
+      <div className="justify-center flex items-center text-2xl ml-[55vh] hidden md:flex">
         <Navlink name="Home"/>
         <Navlink name="Models"/>
         <Navlink name="About"/>
         <Navlink name="Contact"/>
         <Navlink name="Testimonials" />
       </div>
-      
-      <div className="justify-center flex items-center ml-[25vh]  hidden md:flex">
+      <div className="w-full">
+        
+      </div>
+      <div className="justify-center flex items-center mr-[20vh] hidden md:flex">
         <button className="m-[6vh] font-bold" type="button">Sign In</button>
         <button className="bg-[#655DBB] text-slate-50 font-bold pr-[3vh] pl-[3vh] pt-[2vh] pb-[2vh] rounded" type="button">Register</button>
       </div>

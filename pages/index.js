@@ -3,7 +3,7 @@ import Booking from "../components/Booking"
 import Cards from "../components/Cards"
 import Slider from "../components/Slider"
 import Testimonials from '../components/Testimonials';
-import Footer from '../components/Footer';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (
