@@ -1,5 +1,5 @@
-import Model from "../components/model"
-import Footer from "../components/footer"
+import Model from "../components/Model"
+import Footer from "../components/Footer"
 
 export default function Models(){
     return(
